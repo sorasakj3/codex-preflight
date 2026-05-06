@@ -1,0 +1,24 @@
+{
+  "name": "codex-preflight",
+  "version": "0.1.0",
+  "description": "Turn vague coding requests into Codex-ready TASK.md preflight plans.",
+  "type": "module",
+  "bin": {
+    "codex-preflight": "./bin/codex-preflight.js"
+  },
+  "scripts": {
+    "start": "node ./bin/codex-preflight.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "codex",
+    "ai-coding",
+    "cli",
+    "prompt",
+    "preflight"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
